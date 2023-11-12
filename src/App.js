@@ -21,6 +21,7 @@ function App() {
 		gameService.getAll()
 			.then(result =>{
 				setGames(result)
+				console.log(result)
 			})
 			 
 	},[])
